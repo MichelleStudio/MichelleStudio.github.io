@@ -1,3 +1,3 @@
-# MichelleStudio.github.io
+# Michelle Studio
 
 https://michellestudio.github.io/
