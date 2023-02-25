@@ -30,7 +30,26 @@
     </head>
     <body id="page-top">
 
-<nav class="navbar navbar-expand-lg bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid mx-5">
+        <!-- Navbar brand -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarM" aria-controls="navbarM" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a href="/" class="navbar-brand mx-5">Michelle R. Chen </a>
+        <div class="collapse navbar-collapse" id="navbarM">
+	  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"> <a class="nav-link" href="/page/work">Work</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Process</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/page/biocv">Bio + CV</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+<!--- nav class="navbar navbar-expand-lg bg-light">
     <a class="navbar-brand" href="/"><span class='brand'>Michelle R. Chen</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerID" aria-controls="navbarTogglerID" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -42,7 +61,7 @@
         <li class="nav-item"> <a class="nav-link" href="/page/biocv">Bio + CV</a> </li>
       </ul>
     </div>
-</nav>
+</nav --->
 
 
 
@@ -54,12 +73,11 @@
 
       <div class="col-sm-12">
         <h4 class="section-heading">Bio</h4>
-        <img src="/static/media/michelle/profile.jpg" width='300px' class="float-end px-3"/>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit volutpat maecenas volutpat blandit aliquam. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Nam aliquam sem et tortor consequat id porta nibh. Fermentum leo vel orci porta. Vitae proin sagittis nisl rhoncus mattis rhoncus urna. Volutpat sed cras ornare arcu. Pellentesque habitant morbi tristique senectus. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Consequat ac felis donec et odio pellentesque.</p>
+        <img src="/static/media/michelle/profile.jpg" width='250px' class="float-end px-3"/>
+	<p>Michelle Chen is a visual artist working in Sculpture and Illustration to question engrained traditions and how–if at all–they are still applicable to modern life. She is graduating from UC Berkeley with a degree in Art Practice. Her further interests include the role of humanity in relation to nature, functionality in the presence of aesthetics, and the function of waste generated from a consumer economy.
+	</p>
 
-	<p>Faucibus scelerisque eleifend donec pretium. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Scelerisque mauris pellentesque pulvinar pellentesque. Est ultricies integer quis auctor elit sed. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Enim facilisis gravida neque convallis a. Eget felis eget nunc lobortis. Nisi lacus sed viverra tellus in. Fringilla phasellus faucibus scelerisque eleifend. Mi in nulla posuere sollicitudin aliquam ultrices. Interdum velit euismod in pellentesque massa placerat duis. Vel pretium lectus quam id leo in vitae. Sit amet est placerat in egestas.</p>
-
-<br><center><a href='/static/media/michelle/2302-CV-MichelleChen.pdf' style='text-decoration:none'>[ Download CV <i class="fa-regular fa-file-pdf"></i> ]</a></center>
+        <center class="p-5"><a href='/static/media/michelle/2302-CV-MichelleChen.pdf' style='text-decoration:none'>[ Download CV <i class="fa-regular fa-file-pdf"></i> ]</a></center>
       </div>
 
     </div>
@@ -74,7 +92,6 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
           <hr>
           <ul class="list-inline text-center">
             <li class="list-inline-item">
@@ -93,19 +110,23 @@
                 </span>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a h href="www.linkedin.com/in/Michelle-R-Chen" target='_blank'>
+            <!--- li class="list-inline-item">
+              <a href="www.linkedin.com/in/Michelle-R-Chen" target='_blank'>
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
                 </span>
+              </a>
+            </li --->
+            <li class="list-inline-item">
+              <a href="https://sketchfab.com/MichelleStudio" target='_blank'>
+                <img class='image-fluid' style='opacity:1' src='/static/media/michelle/sketchfab-logo-black.png' width='40px'>
               </a>
             </li>
           </ul>
            
           <p class="copyright text-muted text-center">&copy; MichelleStudio.github.io 2020 - 2023</p>
         </div>
-      </div>
     </div>
   </footer>
 
