@@ -30,7 +30,26 @@
     </head>
     <body id="page-top">
 
-<nav class="navbar navbar-expand-lg bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid mx-5">
+        <!-- Navbar brand -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarM" aria-controls="navbarM" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a href="/" class="navbar-brand mx-5">Michelle R. Chen </a>
+        <div class="collapse navbar-collapse" id="navbarM">
+	  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"> <a class="nav-link" href="/page/work">Work</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/page/process">Process</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/page/biocv">Bio + CV</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+<!--- nav class="navbar navbar-expand-lg bg-light">
     <a class="navbar-brand" href="/"><span class='brand'>Michelle R. Chen</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerID" aria-controls="navbarTogglerID" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -42,22 +61,83 @@
         <li class="nav-item"> <a class="nav-link" href="/page/biocv">Bio + CV</a> </li>
       </ul>
     </div>
-</nav>
+</nav --->
 
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-2"> </div>
-    <div class="col-sm-8">
-    <div class="row">
-      <img class="img-fluid" src="/static/media/michelle/23-02-06-drawing-3d-snake.png" alt="" style='max-height: 400px' />
-      <span class='my-2'>Snake, 2023. Digital Drawing, 960 x 540 px</span>
+  <!--Main layout-->
+  <main class="my-2">
+    <div class="container">
+
+      <!--Section: Content-->
+      <section>
+        <div class="row gx-5" id="features">
+          <div class="col-lg-8 col-md-12 mb-4 mb-lg-0">
+            <!-- main feature block -->
+            <div>
+              <!-- Featured image -->
+              <div class="bg-image hover-overlay mb-4">
+                <a href="article"> 
+	          <img src="/static/media/michelle/23-02-06-drawing-3d-snake.png" class="img-fluid" />
+		</a>
+	        <span>Snake, 2023. Digital Drawing, 960 x 540 px</span>
+              </div>
+            </div>
+            <!-- main feature block -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <!-- Other Feature block -->
+            <div>
+              <!-- Post -->
+              <a href="article" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="/static/media/michelle/21-12-23-photo-fall-thm.jpg" class="img-fluid" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- Post -->
+              <a href="article" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="/static/media/michelle/21-12-23-drawing-tiger-lily-thm.jpg" class="img-fluid" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- Post -->
+              <a href="article" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="/static/media/michelle/22-05-13-photo-Kensington-1-thm.jpg" class="img-fluid" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+            <!-- other feature block -->
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
     </div>
-  </div>
-  <div class="col-sm-2"> </div>
-  </div>
-</div>
+  </main>
+  <!--Main layout-->
 
 
 
@@ -65,7 +145,6 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
           <hr>
           <ul class="list-inline text-center">
             <li class="list-inline-item">
@@ -84,18 +163,26 @@
                 </span>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a h href="www.linkedin.com/in/Michelle-R-Chen" target='_blank'>
+            <!--- li class="list-inline-item">
+              <a href="www.linkedin.com/in/Michelle-R-Chen" target='_blank'>
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
                 </span>
+              </a>
+            </li --->
+            <li class="list-inline-item">
+              <a href="https://sketchfab.com/MichelleStudio" target='_blank'>
+                <img class='image-fluid' style='opacity:1' src='/static/media/michelle/sketchfab-logo-black.png' width='40px'>
               </a>
             </li>
           </ul>
            
           <p class="copyright text-muted text-center">&copy; MichelleStudio.github.io 2020 - 2023</p>
         </div>
-      </div>
     </div>
   </footer>
+
+
+    </body>
+</html>
