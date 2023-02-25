@@ -13,7 +13,7 @@
 
 @media only screen and (min-width: 992px) {
   .navbar {
-    flex-direction: column;
+ //   flex-direction: column;
     padding-top: .5em;
     padding-bottom: 1.5em;
   }
@@ -44,7 +44,6 @@ a:hover {
 
 body {
   font-family: 'Josefin Sans', serif, 'KaiTi', '楷体', STKaiti, '华文楷体', serif;
-  font-size: 16px;
   text-color: #3a373e;
 }
 
@@ -52,4 +51,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', serif, 'KaiTi', '楷体', STKaiti, '华文楷体', serif;
   font-weight: 800;
   color: #54474D;
+}
+
+#gallery .item:hover {
+  border:1px solid #DDDDDD;
 }
