@@ -1,0 +1,212 @@
+
+
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta http-equiv="x-ua-compatible" content="ie=edge" /><link rel="apple-touch-icon" sizes="180x180" href="https://realmatic.com/assets/michelle/favicon/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://realmatic.com/assets/michelle/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://realmatic.com/assets/michelle/favicon/favicon-16x16.png"><link rel="manifest" href="https://realmatic.com/assets/michelle/favicon/site.webmanifest"><link rel="mask-icon" href="https://realmatic.com/assets/michelle/favicon/safari-pinned-tab.svg" color="#5bbad5"><meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff"><title>Michelle R. Chen</title><link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Josefin+Sans&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script><!--- script src="https://cdn.jsdelivr.net/npm/d3@7"></script><script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script ---><link href="https://realmatic.com/assets/michelle/style.css" rel="stylesheet" /></head><body><!--Main Navigation--><!--Main Navigation--><header><!-- Navbar --><nav class="navbar navbar-expand-lg navbar-light"><div class="container-fluid mx-5"><!-- Navbar brand --><a href="/" class="navbar-brand"><img src="https://realmatic.com/assets/michelle/media/logo.png" height='80px'></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarM" aria-controls="navbarM" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button><div class="collapse navbar-collapse ms-auto" id="navbarM"><ul class="navbar-nav ms-auto mb-2 mb-lg-0"><li class="nav-item"><a class="nav-link" href="/page/work">Work</a></li><li class="nav-item"><a class="nav-link" href="/page/process">R & D</a></li><li class="nav-item"><a class="nav-link" href="/page/biocv">Bio + CV</a></li></ul></div></div></nav><!-- Navbar --></header><link rel="stylesheet" href="https://unpkg.com/photoswipe@5.3.8/dist/photoswipe.css"/><link rel="stylesheet" href="https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.css"><script type='module'>
+import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
+import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin';
+
+const smallScreenPadding = {
+  top: 0, bottom: 0, left: 0, right: 0
+};
+const largeScreenPadding = {
+  top: 30, bottom: 30, left: 0, right: 0
+};
+const lightbox = new PhotoSwipeLightbox({
+  gallerySelector: '#gallery',
+  childSelector: '.pswp-gallery__item',
+
+        // optionaly adjust viewport
+  paddingFn: (viewportSize) => {
+  return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
+  },
+  pswpModule: () => import('https://unpkg.com/photoswipe')
+});
+
+const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+  mobileLayoutBreakpoint: 700,
+  type: 'auto',
+  mobileCaptionOverlapRatio: 1
+});
+lightbox.init();
+</script><div class="container my-5"><!-- Gallery --><div class="row pswp-gallery" id="gallery"><div class="col-lg-4 mb-4 mb-lg-0"><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/110_Reduction.png"
+      data-pswp-width="1920"
+      data-pswp-height="1080"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/110_Reduction_300.png"
+      class="w-100 rounded mb-4"
+      alt="Transient"
+    /></a><div class="pswp-caption-content"><b>Reduction, 2023</b><br>
+      3D model rendering<br>
+      1920px x 1080px <br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/120_Transient.png"
+      data-pswp-width="1440"
+      data-pswp-height="810"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/120_Transient_300.png"
+      class="w-100 rounded mb-4"
+      alt="Transient"
+    /></a><div class="pswp-caption-content"><b>Transient, 2023</b><br>
+      3D model rendering<br>
+      1440px x 810px <br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/160_Vigor.jpg"
+      data-pswp-width="1500"
+      data-pswp-height="1000"
+      target="_blank"
+  ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/160_Vigor_300.jpg"
+      class="w-100 rounded mb-4"
+      alt="Vigor"
+    /></a><div class="pswp-caption-content"><b>Vigor, 2022</b><br>
+      Digital photography, Nikon D7000.<br>
+      5400 x 3600 px.<br>
+      [Joshua Tree National Park]<br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/170_Refuel.jpg"
+      data-pswp-width="3906"
+      data-pswp-height="3018"
+      target="_blank"
+  ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/170_Refuel_300.jpg"
+      class="w-100 rounded mb-4"
+      alt="Refuel"
+    /></a><div class="pswp-caption-content"><b>Refuel, 2022</b><br>
+      Digital photography.<br>
+      3906 px x 3018 px.<br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/180_Frenzy.jpg"
+      data-pswp-width="3936"
+      data-pswp-height="2624"
+      target="_blank"
+  ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/180_Frenzy_300.jpg"
+      class="w-100 rounded mb-4"
+      alt="Frenzy"
+    /></a><div class="pswp-caption-content"><b>Frenzy, 2022</b><br>
+      Digital photography.<br>
+      3936 px x 2624 px.<br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/200_AraPacisSouthProcession.jpg"
+      data-pswp-width="9808"
+      data-pswp-height="1724"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/200_AraPacisSouthProcession_300.jpg"
+      class="w-100 rounded mb-4"
+      alt="Ara Pacis South Procession Restoration"
+    /></a><div class="pswp-caption-content"><b>Ara Pacis South Procession Restoration, 2023</b><br>
+      Digital color restoration<br>
+      19616px x 3448px<br>
+      There is a preconceived notion that the sculptures of classical Greece and Rome were always milky white. Yet, as we know today, they were once painted vibrantly. The Ara Pacis, a celebration of peace, remains somberly gray. Through guided research and evidence, recolored the lively procession for peace non-destructively.
+    </div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/190_AidoniaLargeFindscale.png"
+      data-pswp-width="5896"
+      data-pswp-height="7167"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/190_AidoniaLargeFindscale_300.png"
+      class="w-100 rounded mb-4"
+      alt="Aidonia"
+    /></a><div class="pswp-caption-content"><b>Aidonia Large Find scale, 2023</b><br>
+      Digital restoration<br>
+      5896px x 7167px<br></div></div></div><div class="col-lg-4 mb-4 mb-lg-0"><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/030_Habitat.png"
+      data-pswp-width="1440"
+      data-pswp-height="810"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/030_Habitat_300.png"
+      class="w-100 rounded mb-4"
+      alt="Habitat"
+    /></a><div class="pswp-caption-content"><b>Habitat, 2023</b><br>
+      Creative Coding (P5.js)<br>
+      1396px x 783px <br><a href='/23Habitat' target='_blank'>Live Link</a></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/040_HighSea.png"
+      data-pswp-width="1795"
+      data-pswp-height="742"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/040_HighSea_300.png"
+      class="w-100 rounded mb-4"
+      alt="Habitat"
+    /></a><div class="pswp-caption-content"><b>High Sea, 2023</b><br>
+      Creative Coding (P5.js)<br>
+      1795px x 742px <br><a href='/HighSea' target='_blank'>Live Link</a></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/100_East_West.png"
+      data-pswp-width="1440"
+      data-pswp-height="810"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/100_East_West_300.png"
+      class="w-100 rounded mb-4"
+      alt="East in west"
+    /></a><div class="pswp-caption-content"><b>East in west, 2023</b><br>
+      Creative Coding (SVG/Javascript)<br>
+      1440px x 810px <br><a href='/page/23app-sfcmap' target='_blank'>Live Link</a></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/130_DeliberateExhibited.jpg"
+      data-pswp-width="3483"
+      data-pswp-height="5235"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/130_DeliberateExhibited_300.jpg"
+      class="w-100 rounded mb-4"
+      alt="Deliberate"
+    /></a><div class="pswp-caption-content"><b>Deliberate, 2023</b><br>
+      set of 4, digital prints on vellum.<br>
+      5' w x 8' h x 6" d<br>
+      Deliberate is a set of 4 digital prints secured in float frames and suspended from an overhead beam in a wave-like formation.<br><a href='/page/23-05-01-work-Deliberate/' target='_blank'>Read More</a></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/135_Deliberate_Set.png"
+      data-pswp-width="1084"
+      data-pswp-height="685"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/135_Deliberate_Set_300.png"
+      class="w-100 rounded mb-4"
+      alt="Deliberate"
+    /></a><div class="pswp-caption-content"><b>Deliberate, 2023</b><br>
+      set of 4, digital prints on vellum.<br>
+      5' w x 8' h x 6" d<br>
+      Deliberate is a set of 4 digital prints secured in float frames and suspended from an overhead beam in a wave-like formation.<br><a href='/page/23-05-01-work-Deliberate/' target='_blank'>Read More</a></div></div><div class="pswp-gallery__item"><a  href="https://realmatic.com/assets/michelle/23-art-app/150_Occupation.png"
+      data-pswp-width="945"
+      data-pswp-height="1024"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/150_Occupation_300.png"
+      class="w-100 rounded mb-4"
+      alt="Occupation"
+    /></a><div class="pswp-caption-content"><b>Occupation, 2022</b><br>
+      wool/nylon blend and polyester, horn toggle buttons.<br>
+      54”w x 48”h x 2”d<br>
+      Occupation is a two-piece set, consisting of a long qipao-like coat with a three-tiered cape tied on top. The coat, when worn, takes on a different shape. The underlayer, qipao-like layer is fastened with horn toggle buttons–the somewhat British equivalent of Chinese frog buttons.
+      <a href='/page/23-03-15-work-Occupation/' target='_blank'>Read More</a></div></div></div><div class="col-lg-4 mb-4 mb-lg-0"><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/050_Essence_exhibited_WIP.png"
+      data-pswp-width="803"
+      data-pswp-height="818"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/050_Essence_exhibited_WIP_300.png"
+      class="w-100 rounded mb-4"
+      alt="Essence"
+    /></a><div class="pswp-caption-content"><b>Essence (WIP), 2023</b><br>
+      set of 4, digital prints.<br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/060_Essence1_WIP.png"
+      data-pswp-width="4665"
+      data-pswp-height="4665"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/060_Essence1_WIP_300.png"
+      class="w-100 rounded mb-4"
+      alt="Essence"
+    /></a><div class="pswp-caption-content"><b>Essence 1 (WIP), 2023</b><br>
+      1 of 4, digital prints.<br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/070_Essence2_WIP.png"
+      data-pswp-width="4665"
+      data-pswp-height="4665"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/070_Essence2_WIP_300.png"
+      class="w-100 rounded mb-4"
+      alt="Essence"
+    /></a><div class="pswp-caption-content"><b>Essence 2 (WIP), 2023</b><br>
+      2 of 4, digital prints.<br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/080_Essence3_WIP.png"
+      data-pswp-width="4665"
+      data-pswp-height="4665"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/080_Essence3_WIP_300.png"
+      class="w-100 rounded mb-4"
+      alt="Essence"
+    /></a><div class="pswp-caption-content"><b>Essence 3 (WIP), 2023</b><br>
+      3 of 4, digital prints.<br></div></div><div class="pswp-gallery__item"><a href="https://realmatic.com/assets/michelle/23-art-app/090_Essence4_WIP.png"
+      data-pswp-width="4665"
+      data-pswp-height="4665"
+      target="_blank"
+    ><img
+      src="https://realmatic.com/assets/michelle/23-art-app/090_Essence4_WIP_300.png"
+      class="w-100 rounded mb-4"
+      alt="Essence"
+    /></a><div class="pswp-caption-content"><b>Essence 4 (WIP), 2023</b><br>
+      4 of 4, digital prints.<br></div></div></div></div><!-- Gallery --><!--- ol><li>Budda Shadow</li><li>Crane</li><li>Fern</li><li>Highsea</li><li><a href='https://realmatic.com/assets/michelle/23-art-app/150_Occupation.png' target='_blank'>Occupation</a></li><li><a href='https://realmatic.com/assets/michelle/23-art-app/100_East_West.png target='_blank''>East in West, isometric map</a></li><li><a href='https://realmatic.com/assets/michelle/23-art-app/130_DeliberateExhibited.jpg' target='_blank'>Deliberate Exhibited</a></li><li>Deliberate digital combined</li><li>Skull Exhibited</li><li>Skull digital combined</li><li><a href='https://realmatic.com/assets/michelle/23-art-app/120_Transient.png' target='_blank'>Transient</a></li><li><a href='https://realmatic.com/assets/michelle/23-art-app/160_Vigor.jpg' target='_blank'>Vigor</a></li><li>Nemea pottery</li><li><a href='https://realmatic.com/assets/michelle/23-art-app/200_AraPacisSouthProcession.jpg' target='_blank'>Ara Pacis South Procession Restoration</a></li><li>Fishy Situation</li></ol ---></div><!-- Footer --><footer><div class="container"><div class="row"><hr><ul class="list-inline text-center"><li class="list-inline-item"><a href="https://github.com/MichelleStudio" target='_blank'><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li><li class="list-inline-item"><a href="https://dribbble.com/MichelleStudio/collections"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fa-brands fa-dribbble fa-stack-1x fa-inverse"></i></span></a></li><!--- li class="list-inline-item"><a href="www.linkedin.com/in/Michelle-R-Chen" target='_blank'><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li ---><li class="list-inline-item"><a href="https://sketchfab.com/MichelleStudio" target='_blank'><img class='image-fluid' style='opacity:1' src="https://realmatic.com/assets/michelle/media/sketchfab-logo-recolor.png" width='40px'></a></li></ul><p class="copyright text-muted text-center">&copy; MichelleStudio.github.io 2020 - 2023</p></div></div></footer><!--Footer--></body></html>
