@@ -15,8 +15,9 @@
 # wget --no-check-certificate -O page/23-05-01-make-Deliberate.html $MICHELLE/page/23-05-01-make-Deliberate 
 # wget --no-check-certificate -O page/23-05-01-work-Deliberate.html $MICHELLE/page/23-05-01-work-Deliberate 
 
-wget --no-check-certificate -O page/23app.html $MICHELLE/page/23app
+# wget --no-check-certificate -O page/23app.html $MICHELLE/page/23app
 wget --no-check-certificate -O page/23app-sfcmap.html $MICHELLE/page/23app-sfcmap
+wget --no-check-certificate -O page/23-art-app.html $MICHELLE/page/23-art-app
 
 # wget --no-check-certificate -O page/.html $MICHELLE/page/
 # wget --no-check-certificate -O page/.html $MICHELLE/page/
