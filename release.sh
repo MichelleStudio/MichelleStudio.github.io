@@ -21,7 +21,7 @@ wget --no-check-certificate -O page/23-12-18-make-Cranes.html $MICHELLE/page/23-
 wget --no-check-certificate -O page/23app-sfcmap.html $MICHELLE/page/23app-sfcmap
 wget --no-check-certificate -O page/23-art-app.html $MICHELLE/page/23-art-app
 
-wget --no-check-certificate -O page/desinv.html $MICHELLE/page/desinv
+wget --no-check-certificate -O page/desinv_showcase.html $MICHELLE/page/desinv_showcase
 wget --no-check-certificate -O page/desinv_team.html $MICHELLE/page/desinv_team
 wget --no-check-certificate -O page/desinv_document.html $MICHELLE/page/desinv_document
 
