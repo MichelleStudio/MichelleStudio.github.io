@@ -25,6 +25,10 @@ wget --no-check-certificate -O page/desinv_showcase.html $MICHELLE/page/desinv_s
 wget --no-check-certificate -O page/desinv_team.html $MICHELLE/page/desinv_team
 wget --no-check-certificate -O page/desinv_document.html $MICHELLE/page/desinv_document
 
+# new site
+wget --no-check-certificate -O page/newsite.html $MICHELLE
+wget --no-check-certificate -O page/visdev.html $MICHELLE/page/visdev
+wget --no-check-certificate -O page/visdev_anna.html $MICHELLE/page/visdev_anna
 
 # wget --no-check-certificate -O page/.html $MICHELLE/page/
 # wget --no-check-certificate -O page/.html $MICHELLE/page/
