@@ -29,6 +29,10 @@ wget --no-check-certificate -O page/desinv_document.html $MICHELLE/page/desinv_d
 wget --no-check-certificate -O page/newsite.html $MICHELLE
 wget --no-check-certificate -O page/visdev.html $MICHELLE/page/visdev
 wget --no-check-certificate -O page/visdev_anna.html $MICHELLE/page/visdev_anna
+wget --no-check-certificate -O page/conservation.html $MICHELLE/page/conservation
+wget --no-check-certificate -O page/conservation_sacr.html $MICHELLE/page/conservation_sacr
+wget --no-check-certificate -O page/conservation_spro.html $MICHELLE/page/conservation_spro
+wget --no-check-certificate -O page/conservation_neai.html $MICHELLE/page/conservation_neai
 
 # wget --no-check-certificate -O page/.html $MICHELLE/page/
 # wget --no-check-certificate -O page/.html $MICHELLE/page/
