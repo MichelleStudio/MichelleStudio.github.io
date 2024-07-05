@@ -31,15 +31,18 @@ wget --no-check-certificate -O page/visdev.html $MICHELLE/page/visdev
 wget --no-check-certificate -O page/visdev_art.html $MICHELLE/page/visdev_art
 wget --no-check-certificate -O page/visdev_character.html $MICHELLE/page/visdev_character
 wget --no-check-certificate -O page/visdev_scenic.html $MICHELLE/page/visdev_scenic
+
 wget --no-check-certificate -O page/visdev_anna.html $MICHELLE/page/visdev_anna
 wget --no-check-certificate -O page/visdev_hega.html $MICHELLE/page/visdev_hega
 wget --no-check-certificate -O page/visdev_cccp.html $MICHELLE/page/visdev_cccp
 wget --no-check-certificate -O page/visdev_daum.html $MICHELLE/page/visdev_daum
-wget --no-check-certificate -O page/visdev_deju.html $MICHELLE/page/visdev_deju_
+wget --no-check-certificate -O page/visdev_deju.html $MICHELLE/page/visdev_deju
+
 wget --no-check-certificate -O page/conservation.html $MICHELLE/page/conservation
+wget --no-check-certificate -O page/conservation_illustration.html $MICHELLE/page/conservation_illustration
+wget --no-check-certificate -O page/conservation_restoration.html $MICHELLE/page/conservation_restoration
+wget --no-check-certificate -O page/conservation_review.html $MICHELLE/page/conservation_review
+
 wget --no-check-certificate -O page/conservation_sacr.html $MICHELLE/page/conservation_sacr
 wget --no-check-certificate -O page/conservation_spro.html $MICHELLE/page/conservation_spro
 wget --no-check-certificate -O page/conservation_neai.html $MICHELLE/page/conservation_neai
-
-# wget --no-check-certificate -O page/.html $MICHELLE/page/
-# wget --no-check-certificate -O page/.html $MICHELLE/page/
