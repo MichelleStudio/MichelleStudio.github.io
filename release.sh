@@ -41,6 +41,7 @@ wget --no-check-certificate -O page/visdev_garg.html $MICHELLE/page/visdev_garg
 wget --no-check-certificate -O page/visdev_anim.html $MICHELLE/page/visdev_anim
 wget --no-check-certificate -O page/visdev_live.html $MICHELLE/page/visdev_live
 wget --no-check-certificate -O page/visdev_dood.html $MICHELLE/page/visdev_dood
+wget --no-check-certificate -O page/visdev_shoj.html $MICHELLE/page/visdev_shoj
 
 wget --no-check-certificate -O page/conservation.html $MICHELLE/page/conservation
 wget --no-check-certificate -O page/conservation_illustration.html $MICHELLE/page/conservation_illustration
@@ -53,3 +54,5 @@ wget --no-check-certificate -O page/conservation_neai.html $MICHELLE/page/conser
 wget --no-check-certificate -O page/conservation_font.html $MICHELLE/page/conservation_font
 wget --no-check-certificate -O page/conservation_gaig.html $MICHELLE/page/conservation_gaig
 wget --no-check-certificate -O page/conservation_prov.html $MICHELLE/page/conservation_prov
+wget --no-check-certificate -O page/conservation_kusa.html $MICHELLE/page/conservation_kusa
+wget --no-check-certificate -O page/conservation_hong.html $MICHELLE/page/conservation_hong
